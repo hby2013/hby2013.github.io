@@ -1,0 +1,37 @@
+<html>
+<head>
+  <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+
+<div class = "UserList">
+<header>User List</header>
+<ul id='User_list' class="UserList-messages"></ul>
+<footer>
+<input type='text' id='userInput'  placeholder='Type a user name...'>
+</footer>
+<button onclick = "userSignin()";>Sign in</button>
+<button onclick = "userSignup()";>Sign up</button>
+</div> 
+<div class="chat l-demo-container">
+  <header>My Chatting</header>
+  <ul id='messages' class="chat-messages"></ul>
+  <footer>
+    <input type='text' id='messageInput'  placeholder='Type a message...'>
+	<img src="images/1.jpg" onclick = "show_expression(1)"; />
+	<img src="images/2.jpg" onclick = "show_expression(2)"; />
+	<img src="images/3.jpg" onclick = "show_expression(3)"; />
+  </footer>
+</div>
+<div class = "RoomList">
+<header>Room List</header>
+<ul id='Room_list' class="RoomList-messages">
+<li align="center" onclick="choose_room(0)";>Room0</li>
+<li align="center" onclick="choose_room(1)";>Room1</li>
+<li align="center" onclick="choose_room(2)";>Room2</li>
+</ul>
+</body>
+</html>

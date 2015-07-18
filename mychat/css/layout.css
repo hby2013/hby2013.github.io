@@ -1,0 +1,206 @@
+.l-demo-container {
+  position:absolute;
+  width:550px;
+  right:420px;
+  top:70px;
+  }
+
+
+.chat {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: #dfe3ea;
+  border: 1px solid #CCC;
+  overflow: auto;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #666; }
+  .chat header {
+    background-color: #EEE;
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#DDDDDD));
+    background: -webkit-linear-gradient(top, #EEEEEE, #DDDDDD);
+    background: linear-gradient(top, #EEEEEE, #DDDDDD);
+    -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.9), 0px 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.9), 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 3px 0px 0px;
+    border-bottom: 1px solid #CCC;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: #999; }
+  .chat input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 0px 10px;
+    height: 30px;
+    font-size: 18px;
+    width: 100%;
+    font-weight: normal;
+    outline: none; }
+  .chat .chat-toolbar {
+    background-color: #FFF;
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid #CCC; }
+    .chat .chat-toolbar label {
+      text-transform: uppercase;
+      line-height: 32px;
+      font-size: 14px;
+      color: #999;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      z-index: 1; }
+    .chat .chat-toolbar input {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: 1px solid #FFF;
+      padding-left: 100px;
+      color: #999; }
+      .chat .chat-toolbar input:active, .chat .chat-toolbar input:focus {
+        color: #1d9dff;
+        border: 1px solid #FFF; }
+  .chat ul {
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    height: 300px;
+    overflow: auto; }
+    .chat ul li {
+      margin-bottom: 10px;
+      line-height: 24px; }
+      .chat ul li:last-child {
+        margin: 0px; }
+    .chat ul .chat-username {
+      margin-right: 10px; }
+  .chat footer {
+    display: block;
+    padding: 0px; }
+    .chat footer input {
+	  width:390px;
+      border: 1px solid #ced3db;
+      height: 40px; 
+	  margin: 10px;
+	  }
+	 .chat footer img{
+	  margin:0px;
+	  width:40px;
+      height: 40px; 
+	  background-color:#dfe3ea;
+	  margin-bottom:-10px;
+	  margin-left:0px;
+	  cursor:pointer;
+	  }
+
+img{
+	margin:0px;
+	width:25px;
+	height:25px;
+}
+
+
+.leaderboard {
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  overflow: auto;
+  color: #666; }
+ 
+ 
+
+  
+.UserList{
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  position:absolute;
+  top:70px;
+  left:180px;
+  width:200px;
+  height:443px;
+  background-color: #dfe3ea;}
+  
+.UserList header {
+    background-color: #EEE;
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#DDDDDD));
+    background: -webkit-linear-gradient(top, #EEEEEE, #DDDDDD);
+    background: linear-gradient(top, #EEEEEE, #DDDDDD);
+    -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.9), 0px 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.9), 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 3px 0px 0px;
+    border-bottom: 1px solid #CCC;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: #999; }
+	
+.UserList ul {
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    height: 270px;
+    overflow: auto; }
+    .UserList ul li {
+      margin-bottom: 10px;
+      line-height: 24px;
+	  cursor:pointer;}
+	.UserList button {
+	margin:3px 12px 3px 22px;
+    padding: 3px;
+	}
+  .UserList footer {
+    display: block;
+    padding: 10px;
+	}
+    .UserList footer input {
+      border: 1px solid #ced3db;
+	  border-radius: 3px;
+      height: 30px; 
+	  padding:3px;
+	  width:180px;
+	  font-size: 15px;}
+	  
+.RoomList{
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  position:absolute;
+  top:70px;
+  right:200px;
+  width:200px;
+  height:443px;
+  background-color: #dfe3ea;}
+  
+.RoomList header {
+    background-color: #EEE;
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#DDDDDD));
+    background: -webkit-linear-gradient(top, #EEEEEE, #DDDDDD);
+    background: linear-gradient(top, #EEEEEE, #DDDDDD);
+    -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.9), 0px 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.9), 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 3px 0px 0px;
+    border-bottom: 1px solid #CCC;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: #999; }
+	
+.RoomList ul {
+    list-style: none;
+    margin: 0px;
+    padding: 4px;
+    height: 310px;
+    overflow: auto; }
+    .RoomList ul li {
+      margin-bottom: 2px;
+	  margin-top:2px;
+	  padding-top:10px;
+	  padding-bottom:10px;
+      line-height: 24px; 
+	  background-color: #dfe3ea;
+	  cursor:pointer;}
