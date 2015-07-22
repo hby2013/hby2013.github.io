@@ -14,7 +14,7 @@ var miniMapScale;
 var gameEnd = false;
 var gameMode = 1;
 var gameTime = 5;
-var classicDeath = 1;
+var classicDeath = 20;
 var leftMinute = 5;
 var leftSecond = 0;
 var startTime;
